@@ -1,4 +1,4 @@
-![xl-api](https://img.shields.io/badge/Kigaliz--analytics-red)[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+![xl-api](https://img.shields.io/badge/Kigaliz--analytics-red) [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 
 API based on GCF
 
