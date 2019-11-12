@@ -1,4 +1,4 @@
-![xl-api](https://img.shields.io/badge/Kigaliz--analytics-red) [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+![Kigz-api](https://img.shields.io/badge/Kigaliz--analytics-red) [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
 
 API based on GCF
 
@@ -16,18 +16,18 @@ References :
 
 * Install the SLS framework 
 * For Google Cloud function use the following substeps.
- * `sls create --template google-python --path xlapi-someFunctionalityName`
- * Navigate the the created folder > cd xlapi-someFunctionalityName
+ * `sls create --template google-python --path kigzapi-someFunctionalityName`
+ * Navigate the the created folder > cd kigzapi-someFunctionalityName
  * Edit the `serverless.yml` as below
 ```yml
-service: xlapi-someFunctionalityName
+service: kigzapi-someFunctionalityName
 
 provider:
   name: google
   stage: dev
   runtime: python37
   region: us-central1
-  project: xl-insight-app
+  project: gcp-project-name
   credentials: ~/.gcloud/keyfile.json  ## This should be created in the first step of sls setup
 
 plugins:
